@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--abre o documento todo-->
+<head> <!--modifica informações da aba-->
+    <meta charset="UTF-8"> <!--para incluir informações no site-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Pessoal</title> <!--nome da aba-->
+    <link rel="icon" type="imagem/png" href="iconpag.png"> <!--link é usado para relacionar uma fonte ou doc externo ao HTML, REL é relacionamento de doc, TYPE é tipo de doc e HRF significa referência de HTML-->
+    <script> //tag de linguagem javascript
+        alert("Esta página se trata de um currículo online pertencente à Maysa Flores, bem vindo(a)!")
+    </script>
+</head>
+<body> <!--corpo do site, tudo que está abaixo da barra de pesquisa e da aba-->
+
+<style> /*css interno*/
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #def4fd;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(imagefundo.jpeg);
+    background-size: 285%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    position: left;
+}
+    .topo {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    img {
+        margin: 12px;
+        border: 1px solid;
+        border-radius: 100%
+    }
+
+    h1 {
+        margin: 12px;
+        padding:12px;
+        position: relative;
+        font-weight: bold;
+        font-size: 2em;
+        color: white;
+    }
+
+    aside {
+        display: inline;
+        text-align: center;
+        position: center;
+        z-index: 2;
+        top: 7px;
+        right: 7px;
+        padding: 5px; 
+    }
+
+    .secoes> a {
+        text-align: center;
+        position: center;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #00BFFF;
+        border-radius: 10px;
+        text-decoration-line: none;
+        color: white;
+    }
+    
+    h2 {
+        color: #00BFFF;
+        text-decoration:underline;
+        font-weight: bold,italic;
+    }
+
+    .sobre_mim {
+        padding: 5px;
+        text-align: center;
+        font-size: 1,5em;
+    }
+    
+    .formacao {
+        padding: 5px;
+        text-align: center;
+        list-style-position: inside;
+        font-size: 1,5em;
+    }
+
+    .idiomas {
+        padding: 5px;
+        text-align: center;
+        list-style-position: inside;
+        font-size: 1,5em;
+    }
+    
+    .experiencia {
+        padding: 5px;
+        text-align: center;
+        list-style-position: inside;
+        font-size: 1,5em;
+    }
+
+    .hobbies {
+        padding: 5px;
+        text-align: center;
+        list-style-position: inside;
+        font-size: 1,5em;
+    }
+
+    .portfolio {
+        padding: 5px;
+        text-align: center;
+        font-size: 1,5em;
+    }
+
+    .portfolio> p> a {
+        position: center;
+        text-decoration-line: none;
+        font-style: italic;
+        color: #00BFFF;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+    h4 {
+        font-weight: normal;
+        background-color: #F0F8FF;
+        position: center;
+        margin: 4px;
+        padding: 4px;
+        display: inline;
+        border-radius: 10px;
+    }
+
+    article {
+        position: relative;
+        z-index: 2;
+        padding:20px;
+        top: 10px;
+        left:560px;
+        right:0px;
+        background-color: #00BFFF;
+        border: solid 1px;
+        border-radius: 30px;
+        display: inline-block;
+        text-align: center;
+    }
+    .contato> h2{
+        color: white;
+        -webkit-text-stroke-width: 0.8px;
+        -webkit-text-stroke-color: black;
+        text-decoration-line: none;
+    }
+
+    footer {
+    background-image: url(imagefundo.jpeg);
+    background-size: 100%;
+    padding: 0;
+    margin:0;
+    border: none;
+    position: relative;
+    top: 1px;
+    left: 0;
+    right: 0;
+    color: black;
+    font-weight: bold;
+    z-index: 2;
+    }
+   
+    .credit {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 0 30px 0;
+    font-size: 18px;
+    }
+</style>
+
+<header> <!--cabeçalho-->
+    <div class="topo">
+        <img src="fotomei.jpg" width="230px" label="Foto Curriculum"> <!--IMG serve para imagens e precisa estar acompanhado do SRC(recurso)-->
+        <h1>Maysa Flores Cardoso</h1> <!--H usada para títulos e acompanha um número que altera o tamanho, sendo de 1 a 6-->
+    </div>
+</header>
+<main> <!--conteúdo principal-->
+<aside> <!---->
+    <div class="secoes"> <!-- div é como uma divisória, e class serve como um identificador-->
+            <a href="#sobre">♡Sobre mim♡</a> <!--tag A é usada para criar um hyperlink-->
+            <a href="#curriculo">♡Meu currículo♡</a>
+            <a href="#contato">♡Contate-me♡</a>
+            <a href="#portfolio">♡Meu portfólio♡</a>
+    </div>  
+</aside>
+<section>
+    <div class="sobre_mim">
+        <h2 id="sobre">Sobre mim</h2> 
+        <p> Estudante de informática e amante da arte, acredito que para um você precisa do outro e eu adoro fazer isso. Busco crescer na àrea e sonho em ter meu próprio negócio um dia! <br/>
+                Gosto de me comunicar e me saio bem em uma boa equipe, é sempre melhor ter mais de uma cabeça em um projeto. <br/>
+                Atualmente tenho trabalhado com banco de dados e criação de sites pessoais como blogs. <br/> 
+                Estou procurando uma oportunidade para trabalhar em uma grande empresa e assim poder apresentar meus conhecimentos e habilidades.</p> <!--P adiciona um novo parágrafo-->
+    </div>
+
+    <div class="formacao">  
+        <h2 id="curriculo">Formação Acadêmica</h2>
+            <ul>
+                <li>Curso Técnico de Informática Avançada - Microcamp (2021-2023)</li>
+                <li>Técnologo em Análise e Desenvolvimento de Sistemas - Uninter (2023-2025)</li>
+            </ul>
+    </div>
+
+    <div class="idiomas">
+        <h2>Idiomas</h2>
+            <ul> <!--UL  quer dizer: Unordered List que é uma lista em marcadores-->
+                <li> Inglês Intermediário</li> <!--LI é item da lista-->
+            </ul>
+    </div>
+
+    <div class="experiencia">
+        <h2>Experiência Profissional</h2>
+            <ul>
+                <li> UP! Celulares</li>
+                <li> Atendente/Vendedora</li>
+                <li> Freelancer</li>
+                <br/>
+                <li> Brinquedoteca Passatempo</li>
+                <li> Monitora</li>
+                <li> 02 meses</li>
+                <br/>
+                <li> Sherek Lan House e Papelaria</li>
+                <li> Atendente/Serviços Gerais</li>
+                <li> 08 meses</li>
+                <br/>
+                <li> Sapataria & Cia Calçados e Acessórios</li>
+                <li> Atendente/Estoquista</li>
+                <li> 03 meses</li>
+            </ul>        
+    </div>
+
+    <div class="hobbies">
+        <h2>Meus Hobbies</h2>
+            <ul>
+                <li>Cantar</li>
+                <li>Desenhos e Artesanatos</li>
+                <li>Esportes</li>
+                <li>Culinária</li>
+                <li>Jardinagem</li>
+            </ul>
+    </div>
+
+    <div class="portfolio">
+        <h2 id="portfolio">Meu portfólio</h2>
+        <p> Veja meu <a href="https://mayflores.github.io/portfolio/" target="_blank">portfólio</a> ⬅︎aqui!</p> 
+    </div>
+
+   <article>
+    <div class="contato">
+        <h2 id="contato">Contate-me</h2>
+            <form>
+                <p>
+                    Nome:<br/>
+                <input type="text" size="50" name="nome"> 
+                </p>
+                <p>
+                    E-mail:<br/> 
+                    <input type="text" size="50" name="replyto"> 
+                </p>    
+                <p> 
+                    Mensagem:<br/> 
+                    <input type="text" size="50" name="Comentarios"> 
+                </p>    
+                <p> 
+                    <input type="submit" name="BTEnvia" value="Enviar"> 
+                    <input type="reset" name="BTApaga" value="Apagar"> 
+                </p> 
+            </form>
+
+    </div>
+    </article>
+  </main>
+  <footer> <!--rodapé-->
+    <p class="credit">Não limite seus desafios. Desafie seus limites! <br/> By: Maysa - Out/2023</p>
+  </footer>
+</section>
+</body>
+</html>
